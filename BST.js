@@ -40,9 +40,9 @@ class BinarySearchTree {
         let found = false;
         while (current && !found) {
             if (val < current.val) {
-                current = current.left
+                current = current.left;
             } else if (val > current.val) {
-                current = current.right
+                current = current.right;
             } else {
                 found = true;
             }
@@ -54,9 +54,9 @@ class BinarySearchTree {
         let current = this.root;
         while (current) {
             if (val < current.val) {
-                current = current.left
+                current = current.left;
             } else if (val > current.val) {
-                current = current.right
+                current = current.right;
             } else {
                 return true;
             }
